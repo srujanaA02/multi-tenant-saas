@@ -10,3 +10,5 @@ router.post('/logout', protect, authController.logout);
 router.get('/me', protect, authController.getMe); 
 
 module.exports = router;
+
+//Backend Auth Routes
