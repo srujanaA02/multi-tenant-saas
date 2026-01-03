@@ -1,3 +1,9 @@
+/**
+ * Dashboard Page
+ * --------------
+ * Displays tenant-specific overview and statistics.
+ */
+
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../api';
