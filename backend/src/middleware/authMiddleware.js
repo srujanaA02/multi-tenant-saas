@@ -45,6 +45,5 @@ exports.authorize = (...roles) => {
     next();
   };
 };
-/**
- * This middleware is used to protect secured API routes.
- */
+ 
+// Middleware to ensure user belongs to correct tenant
