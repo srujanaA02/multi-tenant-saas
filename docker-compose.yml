@@ -1,5 +1,6 @@
 version: '3.8'
 
+#Define the services for the saas platform
 services:
   # Service 1: Database (MANDATORY NAME: database)
   database:
