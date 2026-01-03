@@ -1,3 +1,9 @@
+/**
+ * API Client
+ * ----------
+ * Centralized Axios configuration for backend requests.
+ */
+
 import axios from 'axios';
 
 // Access env variable exposed by Vite
