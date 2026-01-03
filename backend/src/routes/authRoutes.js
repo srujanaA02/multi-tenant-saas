@@ -1,3 +1,9 @@
+/**
+ * Auth Routes
+ * -----------
+ * Defines authentication-related API endpoints.
+ */
+
 const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/authController');
