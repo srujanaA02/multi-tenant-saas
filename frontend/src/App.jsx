@@ -1,3 +1,9 @@
+/**
+ * Main Application Component
+ * --------------------------
+ * Defines application routes and protected pages.
+ */
+
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Layout from './components/Layout';
