@@ -1,3 +1,9 @@
+/**
+ * Project Controller
+ * ------------------
+ * Manages project CRUD operations per tenant.
+ */
+
 const { Project, Task, User, Tenant, AuditLog } = require('../models');
 
 exports.createProject = async (req, res) => {
