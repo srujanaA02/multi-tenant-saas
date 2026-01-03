@@ -1,3 +1,9 @@
+/**
+ * Projects Page
+ * -------------
+ * Displays all projects belonging to the logged-in tenant.
+ */
+
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../api';
