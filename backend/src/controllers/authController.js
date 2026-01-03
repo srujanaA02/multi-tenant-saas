@@ -1,3 +1,9 @@
+/**
+ * Authentication Controller
+ * -------------------------
+ * Handles login and tenant registration logic.
+ */
+
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const { User, Tenant, sequelize, AuditLog } = require('../models');
