@@ -218,6 +218,7 @@ multi-tenant-saas/
 
 ## 📄 License
 
-This project is intended for educational and evaluation purposes and follows standard SaaS development practices.
+This project is intended for educational and evaluation purposes and follows standard SaaS development practices.Built following modern SaaS best practices.
+
   
 ---
