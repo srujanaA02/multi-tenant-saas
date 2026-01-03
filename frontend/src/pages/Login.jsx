@@ -1,3 +1,8 @@
+/**
+ * Login Page
+ * ----------
+ * Handles user authentication and tenant login.
+ */
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import api from '../api';
