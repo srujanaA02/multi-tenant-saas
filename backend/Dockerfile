@@ -1,3 +1,6 @@
+# Backend Dockerfile
+# Builds and runs the Node.js backend service
+
 # ---------------------------------------
 # Stage 1: Builder (Install all deps)
 # ---------------------------------------
