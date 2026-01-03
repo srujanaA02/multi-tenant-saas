@@ -10,10 +10,6 @@ This application is a full-stack SaaS platform designed for organizations to man
 
 ---
 
-## 📺 Video Demo
-**[🎥 Click here to watch the Project Walkthrough & Architecture Demo](https://youtu.be/h9bwxlI3I4I)**
-
----
 
 ## 🌟 Key Features
 
@@ -191,25 +187,37 @@ The system automatically seeds these accounts on startup. You can use them to te
 ## 📂 Project Structure
 
 ```bash
-saas-platform/
-├── backend/                # Express.js Backend
-│   ├── src/
-│   │   ├── config/         # DB Connection
-│   │   ├── controllers/    # Business Logic
-│   │   ├── middleware/     # Auth & Isolation
-│   │   ├── models/         # Sequelize Models
-│   │   ├── routes/         # API Routes
-│   │   └── scripts/        # Migrations & Seeds
-│   └── Dockerfile
-├── frontend/               # React Frontend
-│   ├── src/
-│   │   ├── components/     # UI Components
-│   │   ├── pages/          # Route Views
-│   │   └── api/            # API Integration
-│   └── Dockerfile
-├── docs/                   # Documentation Artifacts
-├── docker-compose.yml      # Container Orchestration
-└── submission.json         # Automated Test Credentials
+multi-tenant-saas/
+├── backend/
+│   └── src/
+│       ├── controllers/
+│       ├── middleware/
+│       ├── routes/
+│       └── scripts/
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── services/
+├── docs/
+├── docker-compose.yml
+└── README.md
+
 
 ```
 
+## 🚀 Future Enhancements
+
+- Email notifications
+- Analytics dashboard
+- OAuth-based authentication
+- Payment gateway integration
+- Horizontal scaling support
+
+---
+
+## 📄 License
+
+This project is intended for educational and evaluation purposes and follows standard SaaS development practices.
+  
+---
