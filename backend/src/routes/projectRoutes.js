@@ -13,3 +13,5 @@ router.put('/:id', projectController.updateProject);
 router.delete('/:id', projectController.deleteProject); 
 
 module.exports = router;
+
+//Project Routes of backend
