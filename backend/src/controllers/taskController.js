@@ -1,3 +1,9 @@
+/**
+ * Task Controller
+ * ---------------
+ * Contains business logic for task operations within a tenant.
+ */
+
 const { Task, Project, AuditLog } = require('../models');
 
 exports.createTask = async (req, res) => {
