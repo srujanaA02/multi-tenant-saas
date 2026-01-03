@@ -1,3 +1,9 @@
+/**
+ * Database Migration Script
+ * -------------------------
+ * Executes SQL migrations during container startup.
+ */
+
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
