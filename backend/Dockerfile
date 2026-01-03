@@ -35,3 +35,4 @@ EXPOSE 5000
 
 # MANDATORY: Run migrations -> Seed -> Start Server
 CMD ["sh", "-c", "npm run migrate && npm run seed && npm start"]
+# Recommended for local development
