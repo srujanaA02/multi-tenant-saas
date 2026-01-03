@@ -1,3 +1,8 @@
+/**
+ * Authentication Middleware
+ * -------------------------
+ * Validates JWT tokens and attaches user data to requests.
+ */
 const jwt = require('jsonwebtoken');
 const { User, Tenant } = require('../models');
 
