@@ -1,3 +1,9 @@
+/**
+ * Seed Script
+ * -----------
+ * Inserts default tenants, users, projects, and tasks.
+ */
+
 require('dotenv').config();
 const bcrypt = require('bcryptjs');
 const sequelize = require('../config/database');
